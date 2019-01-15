@@ -1,6 +1,9 @@
 # taixincao
 
 
+<a href="https://github.com/yooyixin/K1.git/CaseStudy.html" target="_blank">案例研究方法学习</a>
+
+
 ## 这是一个根据地
 不知道写什么好啊。。。
 
