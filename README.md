@@ -1,7 +1,7 @@
 # taixincao
 
 
-<a href="https://github.com/yooyixin/K1.io/CaseStudy.html" target="_blank">案例研究方法学习</a>
+<a href="https://yooyixin.github.io/K1/CaseStudy.html" target="_blank">案例研究方法学习</a>
 
 
 ## 这是一个根据地
