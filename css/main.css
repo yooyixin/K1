@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background: #005792;
+}
+
+.top{
+    display: flex;
+    /*实现垂直居中*/
+    align-items: center;
+    /*实现水平居中*/
+    justify-content: center;
+    
+    text-align: justify;
+    widows: 100%;
+    height:200px;
+    background :#005792;
+    margin:0 auto;
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left { 
+    float: left;
+    width:30%;
+    height: 500px;
+}
+
+.left_in{
+    width: 95%;
+    height: 95%;
+    background:#2E94B9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 5px auto;
+    flex-direction: column;
+    border-left: 5px
+
+}
+.left_content{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.left_content_top1 {
+    margin: 4px;
+    width: 50%;
+    height: 150px;
+}
+
+.left_content_top2 {
+    margin: 2px;
+    width: 100%;
+    height: 150px;
+}
+
+.left_content_down1{
+    width: 70%;
+    height: 150px;
+}
+
+.right {
+    float: right;
+    width: 70%;
+    height: 500px;
+}
+
+.right_in{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 5px auto;
+    flex-direction: column; 
+    background: #f6f6e9;
+}
+.right_content{
+   
+    width: 30% ;
+    height: 100px;
+}
+
+.MyName{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{color: #2E94B9}
+
+a::before{
+    content: "[";
+    margin-right: 0;
+    opacity: 0;
+    transition: margin-right 0.3s, opacity 0.2s;
+}
+a::after{
+    content: "]";
+    margin-left: 0;
+    opacity: 0;
+    transition: margin-left 0.3s, opacity 0.2s;
+}
+a:hover::before{
+    opacity: 1;
+    margin-right: 20px;
+    
+}
+a:hover::after{
+    opacity: 1;
+    margin-left: 20px;
+    
+}
+/* --------------------- 
+a标签样式
+作者：liuyaqi1993 
+来源：CSDN 
+原文：https://blog.csdn.net/liuyaqi1993/article/details/65658853 
+版权声明：本文为博主原创文章，转载请附上博文链接！ */
+
